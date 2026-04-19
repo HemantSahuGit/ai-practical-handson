@@ -1,6 +1,7 @@
-def main():
-    print("Hello from ai-practical-handson!")
+"""Local entrypoint hint. Run the API with:
 
+    uv run uvicorn app.main:app --reload
+"""
 
 if __name__ == "__main__":
-    main()
+    print("Start the API with: uv run uvicorn app.main:app --reload")

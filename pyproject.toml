@@ -1,7 +1,18 @@
 [project]
 name = "ai-practical-handson"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI data-agent boilerplate with OpenAI, ChromaDB, and PostgreSQL"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "python-multipart>=0.0.12",
+    "pydantic-settings>=2.6.0",
+    "python-dotenv>=1.0.1",
+    "openai>=1.57.0",
+    "sqlalchemy[asyncio]>=2.0.36",
+    "asyncpg>=0.30.0",
+    "chromadb>=0.5.23",
+    "sqlparse>=0.5.2",
+]
